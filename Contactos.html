@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link href="Style.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+    <header>
+        <img src="Imagens/logo_empresa.png" alt="logo da empresa">
+        <nav id="menu-principal">
+            <ul>
+                <li><a href="Index.html"> Home </a></li>
+                <li><a href="Empresa.html">Empresa</a> </li>
+                <li><a href="Serviços.html">Serviços</a></li>
+                <li><a class="ativo" href="Contactos.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="foto-principal">
+    </div>
+
+    <div id="conteudo">
+
+        <h1>Contacto</h1>
+        <p>Entre em contacto connosco preenchendo o formulário abaixo:</p>
+
+        <form action="#" method="post">
+            <fieldset>
+                <fieldset class="grupo">
+                    <div class="campo nome">
+                        <label for="nome">Nome <abbr title="preenchimento obrigatório">*</abbr></label>
+                        <input type="text" name="nome" id="nome" maxlength="100">
+                    </div>
+                    <div class="campo empresa">
+                        <label for="empresa">Empresa</label>
+                        <input type="text" name="empresa" id="empresa" maxlength="100">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div class="campo">
+                        <label for="empresa">Email<abbr title="preenchimento obrigatório">*</abbr></label>
+                        <input type="text" name="empresa" id="empresa" maxlength="100" required>
+                    </div>
+                </fieldset>
+
+                    <fieldset class="grupo">
+                        <div class="campo telefone">
+                            <label for="telefone">Telefone <abbr title="preenchimento obrigatório">*</abbr></label>
+                            <input type="text" id="telefone" name="telefone" maxlength="20">
+                        </div>
+                
+                        <div class="campo">
+                            <label>Departamento</label>
+                            <label class="checkbox">
+                                <input type="radio" name="departamento">Comercial
+                            </label>
+                            <label class="checkbox">
+                                <input type="radio" name="departamento">Financeiro 
+                            </label>
+                            <label class="checkbox">
+                                <input type="radio" name="departamento">Suporte
+                            </label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+
+                    <div class="campo">
+                        <label for="assunto">Assunto <abbr title="preenchimento obrigatório">*</abbr></label>
+                        <select id="assunto" name="assunto">
+                            <option value="" disabled selected>-- Selecione --</option>
+                            <option value="orcamento">Orçamento</option>
+                            <option value="duvidas">Dúvidas</option>
+                            <option value="solicitacoes">Solicitações</option>
+                            <option value="reclamacoes">Reclamações</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensagem">Mensagem <abbr title="preenchimento obrigatório">*</abbr></label>
+                        <textarea id="mensagem" name="mensagem" required></textarea>
+                    </div>
+
+                
+            
+                    <div class="campo">
+                        <label class="checkbox">
+                            <input type="checkbox" name="newsletter">Gostaria de receber a Newsletter da Empresa
+                        </label>
+                    </div>
+                    <button class="submit" type="submit">Enviar Mensagem</button>
+                </fieldset>
+
+                
+            </fieldset>
+        </form>
+
+    </div>
+
+    <br><br>
+
+    <footer id="rodape">
+        <p id="contacto">13_Joana Machado</p>
+        <p id="endereço">Rua do endereço, 123 Bairro
+            <br>
+            +351 123 456 789
+        </p>
+        <p id="copyright">
+            Joana Machado &copy;J+D UX/UI 01-24. Todos os direitos reservados
+        </p>
+    </footer>
+    
+</body>
+</html>

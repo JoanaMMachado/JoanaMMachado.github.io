@@ -1,0 +1,274 @@
+body{
+    font-size: 16px;
+}
+
+#menu-principal li{
+    display: inline;
+}
+
+#menu-principal a{
+    display: block;
+    float: left;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+#menu-principal{
+    position: absolute;
+    top: 16px;
+    right: 32px;
+}
+
+#foto-principal{
+    height: 200px;
+    background: url(Imagens/foto_principal.jpg) no-repeat center top;
+}
+
+header{
+    max-width: 60em; /* 1em= 16px  60*16=960 */
+    min-width: 37.5em; /* 37.5*16=600 */
+    margin: 0 auto;
+    position: relative;
+    font-family: segoe ui;
+}
+
+#menu-principal a:hover{
+    color: blue;
+}
+
+#menu-principal a.ativo{
+    color: blue;
+    font-weight: bold;
+}
+
+#conteudo-principal{
+    float: left;
+    width: 64.5833%; /* 620 de 900 */
+}
+
+#conteudo-secundario{
+    float: right;
+    width: 29.166%;
+    background-color: #0f599f;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+#conteudo{
+    max-width: 60em; /* 1em= 16px  60*16=960 */
+    min-width: 37.5em; /* 37.5*16=600 */
+    margin: 0 auto;
+}
+
+#conteudo-principal h1{
+    font-size: 2.25em; /* 2.25*16=36 */
+}
+
+p{
+    font-size: 1em;
+    margin: bottom 1.5em;
+}
+
+#conteudo-secundario h1{
+    font-size: 1.5em;
+}
+
+#conteudo-secundario p{
+    font-size: 0.875em;
+}
+
+#conteudo-secundario a{
+    font-size: 18px;
+    color: white;
+}
+
+#rodape{
+    clear: both; /*para fechar o float */
+}
+
+#contacto{
+    float: left;
+    font-size: 16px;
+    color: black;
+    margin: 12px 12px;
+}
+
+#endereço{
+    float: right;
+    text-align: right;
+    font-size: 14px;
+    color: black;
+    margin: 12px 12px;
+}
+
+#copyright{
+    clear: both;
+    font-size: 12px;
+    margin: 12px 0;
+    text-align: center;
+    display: block;
+    padding: 16px;
+    color: black;
+}
+
+footer{
+    background-color: lightgray;
+    max-width: 60em; /* 1em= 16px  60*16=960 */
+    min-width: 37.5em; /* 37.5*16=600 */
+    margin: 0 auto;
+}
+
+
+.legenda {
+    margin: 0;
+    color: #FFF;
+    background: #808080;
+    font-style: italic;
+    text-align: center;
+    padding: 0.3em 0.6em;
+}
+
+#conteudo-secundario-2{
+    float: right;
+    width: 29.166%;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    *{margin: 0;
+    padding: 0}
+
+}
+
+#conteudo-secundario-2 img{
+    display: block;
+    border: 0;
+}
+
+#conteudo-secundario-3{
+    float: right;
+    width: 29.166%;
+    padding: 10px;
+    margin-top: 50px;
+    *{margin: 0;
+    padding: 0}
+}
+
+.tabela-serviços{
+    border-spacing: 0;
+    width: 100%;
+}
+
+.tabela-serviços caption{
+    font-size: 24px;
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+
+.tabela-serviços th{
+    background-color: #0f599f;
+    color: #FFF;
+    font-weight: normal;
+    text-align: center;
+}
+
+.tabela-serviços th, .tabela-serviços td{
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    padding: 0.3em;
+}
+
+.tabela-serviços .prazo-entrega{
+    text-align: center;
+}
+
+.tabela-serviços .valor-serviço{
+    text-align: right;
+}
+
+.depoimento {
+    margin-bottom: 1em;
+    }
+.depoimento blockquote {
+    font-size: 16px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    line-height: 1.5em;
+    color: #666;
+    text-align: justify;
+    margin-bottom: 0.3em;
+    }
+.depoimento blockquote p {
+    margin-bottom: 0.7em;
+    }
+
+
+.campo {
+    margin-bottom: 0.75em;
+    }
+.campo label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 0.1em;
+    }
+.campo abbr {
+    color: #C00;
+    font-weight: bold;
+    }
+.campo input, .campo textarea, .campo select {
+    width: 100%;
+    border: 1px solid #CCC;
+    font-size: 1em;
+    padding: 0.1em 0;
+    }
+.campo textarea {
+    height: 10em;
+    }
+label.checkbox {
+    display: inline-block;
+    margin-right: 1em;
+    }
+label.checkbox input {
+    display: inline;
+    vertical-align: baseline;
+    width: auto;
+    }
+.submit {
+    font-size: 1em;
+    background: #0F599F;
+    font-weight: bold;
+    color: #FFF;
+    border: 0;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    }
+.submit:hover {
+    background: #F90;
+    }
+
+.campo.nome, .campo.empresa{
+    width: 48%;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo.telefone{
+    width: 30%;
+}
+
+form, fieldset{
+    border: 0;
+}
+
+
+
+
+
+
+
+
